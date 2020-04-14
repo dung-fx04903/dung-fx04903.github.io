@@ -1,0 +1,156 @@
+
+/*Setup for grids*/
+* {
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    width: 100%;
+    padding: 16px;
+}
+
+/*Mobile max-width: 767px*/
+@media only screen and (max-width: 767px) {
+    .float-left {
+        text-decoration: none;
+        color: white;
+        padding: 16px 8px 16px;
+        font-size: 16px;
+    }
+    nav {
+        background-color: grey;
+    }
+
+    /*Banner*/
+    #line {
+        border-bottom: 3px solid gray;
+    }
+}
+/*Screen width-min:768px*/
+@media only screen and (min-width:768px) {
+    .col-sm-1 {width: 8.33%;}
+    .col-sm-2 {width: 16.66%;}
+    .col-sm-3 {width: 25%;}
+    .col-sm-4 {width: 33.33%;}
+    .col-sm-5 {width: 41.66%;}
+    .col-sm-6 {width: 50%;}
+    .col-sm-7 {width: 58.33%;}
+    .col-sm-8 {width: 66.66%;}
+    .col-sm-9 {width: 75%;}
+    .col-sm-10 {width: 83.33%;}
+    .col-sm-11 {width: 91.66%;}
+    .col-sm-12 {width: 100%;}
+    /*Menu*/
+    nav {
+        background-color: grey;
+    }
+    .float-left {
+        text-decoration: none;
+        color: white;
+        padding: 16px;
+    }
+    #SignUp {
+        margin-left: 40%;
+    }
+    /*Banner*/
+    #line {
+        border-bottom: 3px solid gray;
+    }
+   
+}
+
+/*Screen min-width:992px*/
+@media only screen and (min-width:992px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    /*Menu*/
+    nav {
+        background-color: white;
+    }
+    .float-left {
+        text-decoration: none;
+        color: black;
+        padding-left: 16px;
+    }
+    #SignUp {
+        margin-left: 55%;
+    }
+    
+    /*Banner*/
+    .banner {
+        position: relative;
+        background-image: url(lodging.png);
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+        
+    }
+    .content {
+        position: absolute;
+        top: auto;
+        color: white;
+        top: 100px;
+        left: 30px;
+        font-size: 1.5em;
+    }
+    #line {
+        border-bottom: 3px solid gray;
+        visibility: hidden;
+    }
+
+}
+
+/*Menu for all screen*/
+
+nav a {
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+a:hover {
+    background-color: gainsboro;
+}
+
+/*List Banner*/
+img {
+    width: 100%;
+    height: auto;
+}
+
+.image-left {
+    padding-left: 0px;
+}
+
+/*Footer*/
+.box {
+    background-color: whitesmoke;
+}
+
+h1, h3 {
+    font-size: 2.5rem;
+    font-family: sans-serif;
+}
+
+p {
+    font-size: 1.2em;
+}
+
